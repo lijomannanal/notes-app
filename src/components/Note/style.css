@@ -1,0 +1,10 @@
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

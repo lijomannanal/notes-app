@@ -1,0 +1,20 @@
+.preview-container {
+  margin: 1rem 0;
+}
+.preview {
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  min-height: 80px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.credits {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.credits > div:last-child {
+  font-style: oblique;
+}
